@@ -10,4 +10,9 @@ public class Student()
     lastName = lName;
     gradeLevel = grade; 
   }
+
+  public String toString()
+  {
+    return firstName + " " + lastName + " is in grade: " + gradeLevel;
+  }    
 }
